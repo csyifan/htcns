@@ -17,7 +17,7 @@ from dgl.nn.pytorch.utils import Identity
 from dgl.utils import expand_as_pair
 from torch.nn import init
 
-
+#Thanks for "HINormer: Representation Learning On Heterogeneous Information Networks with Graph Transformer" from https://github.com/Ffffffffire/HINormer.
 class REConv(nn.Module):
     def __init__(self,
                  in_feats,
